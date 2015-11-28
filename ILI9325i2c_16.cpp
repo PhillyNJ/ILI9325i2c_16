@@ -233,7 +233,7 @@ void ILI9325i2c_16::clearBit(byte pin) {
 void ILI9325i2c_16::pulseBitLow(byte pin) {
 
   clearBit(pin);
-  delay(5);
+ // delay(5);
   setBit(pin);
 }
 
